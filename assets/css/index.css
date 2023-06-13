@@ -3,10 +3,11 @@
                 
 
 :root{
-    --color-white:white;
+    --color-purple:#8647ad;
     --color-black:black;
     --color-destaque:rgb(64, 3, 99);
     --color-dark2: #2d2d2d;
+    --color-white:white;
 }
 
 *{
@@ -15,9 +16,10 @@
 }
 
 body{
-    background-color: var(--color-black);
+    background: linear-gradient(90deg,black 35%,#5c3077);
     color: var(--color-white);
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
                                                 
 }
 
@@ -66,6 +68,7 @@ header{
         top: 0;
         background-color: var(--color-dark2);
         height: 100%;
+       
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;
