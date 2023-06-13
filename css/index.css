@@ -1,90 +1,86 @@
-body{
-   
-    margin: 0%;
-    font-family: 'Sofia Sans', sans-serif;
-    background:linear-gradient(to left,#1e192c 65%,black);
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');
 
+                
 
+:root{
+    --color-white:white;
+    --color-black:black;
+    --color-destaque:rgb(64, 3, 99);
+    --color-dark2: #2d2d2d;
 }
 
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: Arial, Helvetica, sans-serif;
+                                                
+}
 
 header{
     display: flex;
-    height: 50px;
-    width:100%;
-    background: black;
-    color: white; 
-    justify-content: space-between,space-around;    
-    border-bottom: 0.1px solid #ffffff;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-white);
+    background-color: var(--color-dark2);
+    padding: 0% 3%;
+    height: 3.5rem;
 }
-nav ,ul,li{
-  display: flex;
-  gap: 1rem; 
-  align-items: center;
-  justify-content: center;
+
+
+.btn-menu{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
 }
-nav{
-    justify-content: space-between,space-around;
-    width: 50%;
-    max-width: 300px;
-    height: 50px;
-}
-h1{
-    display: flex;
-    font-size: min(5vw, 1.2em);
-    margin-left: 1rem;
-}
-a{
-    color: white;
-    text-decoration:none;
-}
-section{
-    color: white;
-    border-radius: 0.5rem;
-}
-main{
+.menu{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;    
-}
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around ;
 }
 
-.try_section{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;    
- }
-
- .try_section, p{
-    white-space: pre-line;  
- }
-#logo{    
-    margin-left: 3rem;
-    aspect-ratio: 1/1;
-    border-radius:20rem;  
-}
-
-#one_section{
-    margin-left: 2rem;
-}
-.github{
-    width: 100%;
-}
-.name{
-   margin-right: 45%;    
-}
-.logo_perfil{    
+ #logo-perfil{
     border-radius: 100%;
-    margin-left: 2rem;
+    width: 3.125rem;
 }
-.sobre_mim{
-    margin: 0%;
+.info-perfil{
     display: flex;
-    color: white;    
-    font-size: 1.5rem;
+    align-items: center
 }
+
+@media screen and (max-width:768px) {   
+    .btn-menu{
+         display: block;
+    }
+    .menu{
+        position: absolute;        
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-dark2);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+      }   
+      .redes-sociais{
+        display: flex;
+        flex-direction: column;
+        padding-top:3rem;
+        gap: 3rem;             
+      }
+}
+
+@keyframes AnimationMenu{
+    from{margin-left: -100vw;}
+    top{margin-left: -10vw;}
+}
+
+
