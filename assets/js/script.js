@@ -16,4 +16,4 @@ function animationC(){
         menu.style.animationName = "AnimationExit";
     }
     }
-/*Quando a função for chamadada o showSidebar mudará de true para false ou de false para true*/
+    /*Quando a função for chamadada o showSidebar mudará de true para false ou de false para true*/
