@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>Lucas Montel Costa</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <!--btn list-->
-        <button class="btn-menu">
+        <button  onclick="animationC()" class="btn-menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
         </button>
         <!--btn list-->
         <div class="info-perfil">
-            <img src="./img/minha_foto.jpeg" id="logo-perfil" alt="logo">
+            <img src="./assets/img/minha_foto.jpeg" id="logo-perfil" alt="logo">
             <h3 id="name">Lucas Montel Costa</h3>
         </div>
 
         <!--Menu-->
-       <div  class="menu">
+       <div  id="menu" class="menu">
             
-            <button class="btn-menu">
+            <button onclick="animationC()" class="btn-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                 </svg>
@@ -43,14 +43,17 @@
             </div>
              <!--Conteudo do menu-->
         </div>
-       
+       <!--Conteudo-->
+        <main class="conteudo" id="conteudo">
+
+        </main>
+        <!--Conteudo-->
         
         
-        
-        
-         <!--Menu-->
+         
         
         
     </header>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

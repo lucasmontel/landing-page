@@ -44,6 +44,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 2;
 }
 
  #logo-perfil{
@@ -82,5 +83,12 @@ header{
     from{margin-left: -100vw;}
     top{margin-left: -10vw;}
 }
+
+
+@keyframes AnimationExit{
+    from{margin-left: -10vw;}
+    top{margin-left: -100vw;}
+}
+
 
 
