@@ -6,7 +6,7 @@
     --color-purple:#8647ad;
     --color-black:black;
     --color-destaque:rgb(64, 3, 99);
-    --color-dark2: #2d2d2d;
+    --color-dark2: #212121;
     --color-white:white;
 }
 
@@ -16,11 +16,15 @@
 }
 
 body{
-    background: linear-gradient(90deg,black 35%,#5c3077);
+    
     color: var(--color-white);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
                                                 
+}
+main{
+    background: linear-gradient(90deg,black 35%,#412552);
+    
 }
 
 header{
@@ -47,6 +51,7 @@ header{
     flex-direction: row;
     align-items: center;
     z-index: 2;
+   
 }
 
  #logo-perfil{

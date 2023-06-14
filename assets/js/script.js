@@ -19,7 +19,7 @@ function animationC(){
     }
 
 
-function closedSidebar(){
+function closeSiderbar(){
     if(showSidebar){
         animationC();
     }
