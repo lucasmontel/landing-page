@@ -1,4 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');             
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sofia+Sans:ital,wght@1,200&display=swap');
 
 
 
@@ -8,18 +9,21 @@
     --color-destaque:rgb(64, 3, 99);
     --color-dark2: #212121;
     --color-white:white;
+    --color-box-shadow:#9331d1;
 }
 
 *{
     margin: 0;
-    padding:0;
+    padding:0; 
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 
 body{
 
     color: var(--color-white);
-    font-family: Arial, Helvetica, sans-serif;
+    
     overflow: hidden;     
 
 }
@@ -85,11 +89,18 @@ header{
 #btn-github{
     width: 30%;
     border-radius: 1rem;
+    transition: transform 0.3s;
+    transform-origin:center;
+    backface-visibility: hidden;
 }
 
 #gitlink{
     display: flex;   
     justify-content: center;
+}
+#btn-github:hover{
+    box-shadow: 0 2px 36px var(--color-white);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:768px) {   
