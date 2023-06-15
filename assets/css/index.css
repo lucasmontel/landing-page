@@ -72,6 +72,7 @@ header{
 .escrita-sobre{
  display: inline-block; 
  word-wrap: break-word;
+ padding-left: 40%;
 
 }
 #logo-perfil{
@@ -84,7 +85,11 @@ header{
 #btn-github{
     width: 30%;
     border-radius: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#gitlink{
+    display: flex;   
+    justify-content: center;
 }
 
 @media screen and (max-width:768px) {   
@@ -120,10 +125,9 @@ header{
         width: 40%;
         padding:1rem;
       }
-      #gitlink{
-        display: flex;   
-        justify-content: center;
-    }
+      .escrita-sobre{
+        padding: 0;
+      }
 
 }
 
