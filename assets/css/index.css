@@ -1,6 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-script');             
 
-                
+
 
 :root{
     --color-purple:#8647ad;
@@ -15,17 +15,22 @@
     padding:0;
 }
 
+
 body{
-    
+
     color: var(--color-white);
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-                                                
+    overflow: hidden;     
+
 }
+
+
 main{
-    background: linear-gradient(90deg,black 35%,#412552);
+
+    background: linear-gradient(90deg,black 35%,#412552);   
     
 }
+
 
 header{
     display: flex;
@@ -37,6 +42,7 @@ header{
     padding: 0% 3%;
     height: 3.5rem;
 }
+
 
 
 .btn-menu{
@@ -53,14 +59,32 @@ header{
     z-index: 2;
    
 }
-
- #logo-perfil{
-    border-radius: 100%;
-    width: 3.125rem;
-}
 .info-perfil{
     display: flex;
     align-items: center
+}
+.info-lucas{    
+    display: flex;    
+    justify-content: space-between;
+    align-items:center;
+    padding: 5rem;
+}
+.escrita-sobre{
+ display: inline-block; 
+ word-wrap: break-word;
+
+}
+#logo-perfil{
+    border-radius: 100%;
+    width: 3.125rem;
+}
+#image-profile{
+    border-radius: 100%;
+}
+#btn-github{
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width:768px) {   
@@ -72,20 +96,37 @@ header{
         flex-direction: column;
         top: 0;
         background-color: var(--color-dark2);
-        height: 100%;
-       
+        height: 100%;       
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
       }   
+
       .redes-sociais{
         display: flex;
         flex-direction: column;
         padding-top:3rem;
-        gap: 3rem;             
+        gap: 3rem;      
+         
       }
+      .info-lucas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+      }
+      #image-profile{        
+        width: 40%;
+        padding:1rem;
+      }
+      #gitlink{
+        display: flex;   
+        justify-content: center;
+    }
+
 }
+
 
 @keyframes AnimationMenu{
     from{margin-left: -100vw;}
@@ -97,6 +138,7 @@ header{
     from{margin-left: -10vw;}
     top{margin-left: -100vw;}
 }
+
 
 
 
