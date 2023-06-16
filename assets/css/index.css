@@ -29,10 +29,8 @@ body{
 }
 
 
-main{
-
-    background: linear-gradient(90deg,black 35%,#412552);   
-    
+main{   
+    background: linear-gradient(90deg,black 35%,#412552);
 }
 
 
@@ -102,6 +100,11 @@ header{
     box-shadow: 0 2px 36px var(--color-white);
     transform: scale(1.1);
 }
+.github img{
+    display: flex;    
+    justify-content: space-between;
+}
+
 
 @media screen and (max-width:768px) {   
     .btn-menu{
