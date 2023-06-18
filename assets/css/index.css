@@ -78,9 +78,8 @@ header{
     justify-content: space-evenly;
 }
 .icons{
-
- padding-left: 5;
-
+    display: flex;
+    justify-content: space-around; 
 }
 #logo-perfil{
     border-radius: 100%;
