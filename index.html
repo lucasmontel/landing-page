@@ -9,51 +9,36 @@
 </head>
 <body>
     <header id="header" class="header">
-        <!--btn list-->
-        <button  onclick="animationC()" class="btn-menu">
+        <button onclick="animationC()" class="btn-menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
         </button>
-        <!--btn list-->
 
-
-        <!--Perfil header-->
         <div class="info-perfil">
             <img src="./assets/img/minha_foto.jpeg" id="logo-perfil" alt="logo">
             <h3 id="name">Lucas Montel Costa</h3>
         </div>
-        <!--Perfil header-->
 
-        <!--Menu-->
-       <div  id="menu" class="menu">
-            
+        <div id="menu" class="menu">
             <button onclick="animationC()" class="btn-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                 </svg>
             </button>
-           
-           
 
-            
-            <!--Conteudo do menu-->
-           
             <div class="redes-sociais">
                 <a href="https://www.youtube.com/channel/UCWONdX95ytWL-nvZ7eoVfzQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>  
                 <a href="https://www.instagram.com/lucas_montel_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> 
-                <a href = "mailto:aimpostor6@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
+                <a href="mailto:aimpostor6@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
                 <a href="https://www.linkedin.com/in/lucasmontel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
             </div>
-             <!--Conteudo do menu-->
         </div>
     </header>
     <main tabindex="0" onclick="closeSiderbar()" class="conteudo" id="conteudo">
         <section class="info-lucas">
           <img src="./assets/img/minha_foto.jpeg" id="image-profile" alt="Foto de Lucas">              
-           <p  class="escrita-sobre">Olá, eu me chamo Lucas Montel Costa, tenho 14 anos de idade,trabalho
-             com desenvolvimento de sites e sou Autônomo.Já desenvolvi vários Sites com WordPress e pequenos
-             projetos com JavaScript,HTML,CSS,React e Bootstrap</p>          
+           <p class="escrita-sobre">Olá, eu me chamo Lucas Montel Costa, tenho 14 anos de idade, trabalho com desenvolvimento de sites e sou autônomo. Já desenvolvi vários sites com WordPress e pequenos projetos com JavaScript, HTML, CSS, React e Bootstrap.</p>          
         </section>
         <div class="icons-tecnologia">
             <img class="icons" align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">          
@@ -65,21 +50,22 @@
             <img class="icons" align="center" src="./assets/img/linux.png" alt="Linux" height="30" width="40">     
         </div>              
         <section>                  
-            <h2 style="padding: 2rem;" align="center">Github</h2>
+            <a href="https://github.com/lucasmontel"><img class="btn-do-github" src="./assets/img/btn.png" alt="Github"></a>
             <div class="dados-github">
                 <a href="https://github.com/lucasmontel">
-                <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmontel&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
+                    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmontel&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
                 </a>
                 <a href="https://github.com/lucasmontel">
-                <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmontel&layout=compact&langs_count=7&theme=midnight-purple"/>
+                    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmontel&layout=compact&langs_count=7&theme=midnight-purple"/>
                 </a>
             </div>
         </section>
      </main>
-     <footer>
-
-
-     </footer>
+    <footer>
+        <h1 align="center">
+            Lucas Montel Costa
+        </h1>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
