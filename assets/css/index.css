@@ -22,8 +22,7 @@
 
 
 body{  
-    color: var(--color-white);
-    overflow-x: hidden;
+    color: var(--color-white);    
 }
 
 header{
@@ -197,6 +196,9 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 1rem;
+      }
+      .dados-github img{
+        width:60%; 
       }
       
       .btn-do-github{
