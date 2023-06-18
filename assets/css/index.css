@@ -190,8 +190,9 @@ footer{
         padding: 0;
       }
       .dados-github{
-        max-width: 100%; /* Limita a largura máxima do contêiner */
-        height: auto; /* Permite que a altura seja ajustada automaticamente */
+        max-width: 100%;
+        width: auto; 
+        height: auto; 
         display: flex;
         flex-direction: column;
         justify-content: center;
