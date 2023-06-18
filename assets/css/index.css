@@ -206,10 +206,14 @@ footer{
         flex-direction: column;
         text-align: center;
         gap: 1rem;
+        padding-top: 1rem;
       }
       .dados-github img{
        height: 9em;
        width: 100%;
+      }
+      .icons{
+        padding-bottom: 1rem;
       }
       
       .btn-do-github{
