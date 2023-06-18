@@ -189,12 +189,13 @@ footer{
       .escrita-sobre{
         padding: 0;
       }
-      .dados-github{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;   
-       width: auto;    
+     
+      .dados-github{       
+        display: flex;
+        flex-direction: column;
+        text-align: center;
       }
+      
       .btn-do-github{
         width: 30%;
       }
