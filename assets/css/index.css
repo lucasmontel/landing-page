@@ -112,7 +112,9 @@ footer{
     margin-right: auto;
     width: 10%;
     border-radius: 1rem;
-    transition: transform 0.3s;   
+    transition: transform 0.3s;
+    margin-top: 5rem;
+    margin-bottom: 5rem;   
 }
 .btn-do-github:hover{
     transform: scale(1.1);
@@ -127,6 +129,10 @@ footer{
 #image-profile{
     border-radius: 100%;
 }
+#painel-git{
+    height: 12rem;
+}
+
 
 
 #gitlink{
