@@ -89,13 +89,12 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 5rem;
 }
+
 .icons-tecnologia{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 5rem;  
+    justify-content: space-around;      
 }
 .icons{
     transition: transform 0.3s;
@@ -113,7 +112,7 @@ footer{
     margin-right: auto;
     width: 10%;
     border-radius: 1rem;
-    transition: transform 0.3s;
+    transition: transform 0.3s;   
 }
 .btn-do-github:hover{
     transform: scale(1.1);
@@ -206,6 +205,9 @@ footer{
       
       .btn-do-github{
         width: 30%;
+        margin-top:5rem;
+        margin-bottom: 5rem;
+        border-radius: 1.5rem;
       }
 
 }
