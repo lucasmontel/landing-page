@@ -190,14 +190,14 @@ footer{
         padding: 0;
       }
       .dados-github{
-        display: flex;
-        flex-direction: column;
-        align-items: center;        
-        gap: 2rem;     
-        width: 50%;  
+       display: flex;      
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
       }
       .btn-do-github{
-        width: 20%;
+        width: 30%;
       }
 
 }
