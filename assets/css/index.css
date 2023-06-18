@@ -81,10 +81,10 @@ header{
     display: flex;
     justify-content: space-around; 
 }
-.redes-sociais{
+.redes-sociais img{
     transition: transform 0.3s;
 }
-.redes-sociais:hover{
+.redes-sociais img:hover{
     transform: scale(1.1);
 }
 
