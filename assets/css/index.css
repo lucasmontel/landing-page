@@ -81,6 +81,13 @@ header{
     display: flex;
     justify-content: space-around; 
 }
+.redes-sociais{
+    transition: transform 0.3s;
+}
+.redes-sociais:hover{
+    transform: scale(1.1);
+}
+
 #logo-perfil{
     border-radius: 100%;
     width: 3.125rem;
@@ -106,21 +113,7 @@ header{
     transform: scale(1.1);
 }
 /* Estilizando a barra de rolagem */
-::-webkit-scrollbar {
-    width: 1rem; /* Largura da barra de rolagem */    
-    
-  }
-  
-  /* Estilizando o traço da barra de rolagem */
-  ::-webkit-scrollbar-track {
-    background: var(--color-purple); /* Cor de fundo da barra de rolagem */
-    border-radius: 3px;
-  }
-  
-  /* Estilizando o polegar (o indicador da posição atual) */
-  ::-webkit-scrollbar-thumb {
-    background: var(--color-dark2); /* Cor do polegar */
-  }
+
  
 
 @media screen and (max-width:768px) {   
@@ -143,8 +136,7 @@ header{
         display: flex;
         flex-direction: column;
         padding-top:3rem;
-        gap: 3rem;      
-         
+        gap: 3rem;
       }
       .info-lucas{
         display: flex;
