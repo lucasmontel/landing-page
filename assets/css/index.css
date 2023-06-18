@@ -192,7 +192,8 @@ footer{
       .dados-github{
        display: block;
        margin-left: auto;
-       margin-right: auto;       
+       margin-right: auto;   
+       width: auto;    
       }
       .btn-do-github{
         width: 30%;
