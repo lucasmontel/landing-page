@@ -86,6 +86,8 @@ footer{
 }
 .dados-github{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     padding-top: 5rem;
 }
@@ -198,7 +200,8 @@ footer{
         gap: 1rem;
       }
       .dados-github img{
-        width:60%; 
+       height: 8em;
+       width: 100%;
       }
       
       .btn-do-github{
