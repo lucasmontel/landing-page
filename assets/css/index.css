@@ -98,14 +98,11 @@ footer{
     flex-direction: row;
     justify-content: space-around;      
 }
-.icons{
-    transition: transform 0.3s;
+.icons{    
     cursor: pointer;  
     padding-bottom: 5rem;
 }
-.icons:hover{
-    transform: scale(1.5);
-}
+
 .redes-sociais img{
     transition: transform 0.3s;
 }
@@ -131,9 +128,6 @@ footer{
 #image-profile{
     width: 70%;
     border-radius: 100%;
-}
-#painel-git{
-    height: 12rem;
 }
 
 
