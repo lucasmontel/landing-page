@@ -212,7 +212,7 @@ footer{
         gap: 1rem;
         padding-top: 1rem;
       }
-      .dados-github img{
+      .dados-github #dados-2 img{
        height: 9em;
        width: 100%;
       }
