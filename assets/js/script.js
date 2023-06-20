@@ -9,7 +9,7 @@ function animationC(){
     if(showSidebar){/*Quando a função for chamada pela primeira vez , ela alternou o valor de showSidebar para true e se for true:(Linha de baixo)*/
         menu.style.marginLeft = "-3vw";/*Faça com que o Margin left dele tenha 3vw fazendo com que ele fique exatamente encostado*/
         menu.style.animationName = "AnimationMenu";/*Assim que o meu menu aparecer , eu quero que ele aparace com essa animação*/
-        document.body.style.overflow="hidden"
+        document.body.style.overflow="hidden";
      }
      else{/*Como a nossa função será chamada novamente ela alternará de true para false fazendo com que o else seja chamado*/
         menu.style.marginLeft = "-100vw";/*Como a nossa animação será chamada pela segunda vez apenas pelo botão de voltar, fazemos o nosso menu ter um margin left de -100vw, assim ele se esconderá*/

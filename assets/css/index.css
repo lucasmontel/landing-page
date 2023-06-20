@@ -142,9 +142,7 @@ footer{
     box-shadow: 0 2px 36px var(--color-white);
     transform: scale(1.1);
 }
-#dados-2{
-    height: 12em;
-}
+
 /* Personalização do scrollbar */
 
 ::-webkit-scrollbar{
@@ -212,7 +210,7 @@ footer{
         gap: 1rem;
         padding-top: 1rem;
       }
-      .dados-github #dados-2 img{
+      .dados-github img{
        height: 9em;
        width: 100%;
       }
