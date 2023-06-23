@@ -92,6 +92,9 @@ footer{
     justify-content: space-evenly;
     padding-top: 5rem;
 }
+#dados-2{
+    width: 26rem;
+}
 
 .icons-tecnologia{
     display: flex;

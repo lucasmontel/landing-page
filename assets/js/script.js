@@ -1,8 +1,6 @@
-let header = document.getElementById("header");
 let menu = document.getElementById("menu");
-let container = document.getElementById("conteudo");
 let showSidebar = false;
-let body = document.getElementsByName("body");
+
 
 function animationC(){
     showSidebar = !showSidebar; /*Toda vez que eu chamar a função AnimationC alternaremos de true para false e vice versa*/
