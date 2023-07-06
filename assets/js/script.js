@@ -23,3 +23,12 @@ function closeSiderbar(){
     }
 }    
 /*Nada exige nascer um genio , basta ter paciencia para compreender*/
+function idade(){
+let p = document.getElementById("escrita-sobre"); 
+let Data = new Date();
+let anoAtual = Data.getFullYear();
+let dataNascimento = 2008;
+let idade = anoAtual - dataNascimento;
+p.textContent =`Olá, eu me chamo Lucas Montel Costa, tenho ${idade} anos de idade, trabalho com desenvolvimento de Sites e sou Autônomo. Já desenvolvi vários Sites com WordPress e pequenos projetos com JavaScript, HTML, CSS, React e Bootstrap.`
+}
+idade()

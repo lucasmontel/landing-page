@@ -79,7 +79,7 @@ footer{
     align-items:center;
     padding: 5rem;
 }
-.escrita-sobre{
+#escrita-sobre{
  display: inline-block; 
  word-wrap: break-word;
  padding-left: 40%;
